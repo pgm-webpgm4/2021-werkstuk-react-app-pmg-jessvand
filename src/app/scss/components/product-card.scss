@@ -1,0 +1,53 @@
+.product-card-link {
+
+    .product-card {
+        margin: 20px 0px;
+        color: $color-black;
+    
+        &-image {
+            width: 100%;
+            height: 300px;
+            padding: 20px 50px;
+            background-color: #f5f5f5;
+    
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                display: block;
+            }
+        }
+    
+        &-info {
+            text-align: center;
+            padding: 10px 0px;
+    
+            h3 {
+                padding: 10px 0px;
+            }
+    
+        }
+    }
+
+    &:hover {
+        text-decoration: none;
+
+        .product-card {
+            
+            &-image {
+                overflow: hidden;
+
+                img {
+                    transform: scale(1.1);
+                    transition: $transition;
+                }
+            }
+
+            &-info {
+                color: $main-color;
+                background-color: $color-black;
+                transition: $transition;
+            }
+        }
+    }
+}

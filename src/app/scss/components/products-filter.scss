@@ -1,0 +1,36 @@
+.filter-container {
+    border-top: solid 2px $color-black;
+    border-bottom: solid 2px $color-black;
+    margin: 20px 0px;
+
+    .filter-list {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        margin: 10px 0px;
+        padding: 0px 10px;
+        flex-wrap: wrap;
+
+        button {
+            border: none;
+            background-color: #fff;
+            outline: none;
+            display: flex;
+            align-items: center;
+            color: $color-black;
+            text-decoration: none;
+            margin: 5px;
+
+            .filter-icon {
+                font-size: 30px;
+                margin-right: 10px;
+            }
+
+            &:hover {
+                color: $main-color;
+                transition: $transition;
+            }
+        }
+    }
+}

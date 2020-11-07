@@ -1,0 +1,50 @@
+.page-detail {
+    margin: 20px 0px;
+
+    .detail-image {
+        width: 100%;
+        margin-bottom: 20px;
+
+        img {
+            width: 100%;
+            object-fit: cover;
+            display: block;
+        }
+    }
+
+    .detail-info {
+        padding: 0px 20px;
+
+        h1 {
+            color: $color-black;
+        }
+
+        strong {
+            color: $main-color;
+
+            .icon {
+                font-size: 40px;
+            }
+        }
+
+        .button {
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .price {
+            font-size: 50px;
+            font-weight: 300;
+        }
+
+    }
+
+    .back-button {
+        margin: 50px 0px;
+        
+        a {
+            color: $color-white;
+        }
+    }
+
+}
