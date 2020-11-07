@@ -1,0 +1,41 @@
+.page-home {
+
+    .hero-container {
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+
+        img {
+            width: 100%;
+            height: 100vh;
+            object-fit: cover;
+            display: block;
+        }
+    }
+
+    .content-container {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 500px;
+    }
+}
+
+@media (max-width: 997px) {
+    .page-home {
+        
+        .hero-container {
+            height: 100vh;
+
+            img {
+                height: 100%;
+                object-fit: cover;
+                display: block;
+            }
+        }
+
+    }
+}
