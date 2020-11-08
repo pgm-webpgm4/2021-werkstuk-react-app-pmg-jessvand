@@ -8,7 +8,7 @@ const ProductCard = (props) => {
   return (
     
     
-    <Link to={Routes.PRODUCT_DETAIL} className="product-card-link">
+    <Link to={`/products/${props.id}`} className="product-card-link">
       <div className="product-card">
         <div className="product-card-image">
           <img src={props.imgUrl} alt="product-img"/>
