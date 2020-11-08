@@ -1,0 +1,32 @@
+.price-list { 
+    display: flex;
+    flex-direction: column;
+
+    .cart-item {
+        background-color: $main-color;
+        color: $color-white;
+        margin: 10px 0px;
+        padding: 10px;
+    }
+
+    a {
+        text-align: center;
+        color: $color-white;
+        background-color: $color-black;
+        font-size: 20px;
+        padding: 10px;
+        margin: 10px 0px;
+
+        &:hover {
+            text-decoration: none;
+            background-color: $main-color;
+            color: $color-white;
+            transition: $transition;
+        }
+    }
+
+    strong {
+        color: $main-color;
+        font-weight: 700;
+    }
+}
