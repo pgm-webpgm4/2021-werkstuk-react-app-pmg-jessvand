@@ -1,0 +1,45 @@
+.admin-login {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: $color-black;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+
+    .login-container {
+        margin: 150px auto;
+        width: 500px;
+        height: 50vh;
+        background-color: $color-white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        img {
+            width: 100px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            background-color: $color-white;
+
+            input {
+                margin: 10px 0px;
+                font-size: 18px;
+                font-family: 'Open Sans';
+                font-weight: 300;
+                padding: 20px;
+                outline: none;
+            }
+
+            button {
+                border: none;
+                outline: none;
+            }
+        }
+    }
+}

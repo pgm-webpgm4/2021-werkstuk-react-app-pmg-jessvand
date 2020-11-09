@@ -1,0 +1,24 @@
+.add-update-product {
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin: 0 auto;
+
+        input, textarea {
+            margin: 10px 0px;
+            font-size: 18px;
+            font-family: 'Open Sans';
+            font-weight: 300;
+            padding: 20px;
+            outline: none;
+            border: solid 2px $color-black;
+        }
+
+        button {
+            border: none;
+            outline: none;
+        }
+    }
+}

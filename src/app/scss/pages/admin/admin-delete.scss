@@ -1,0 +1,29 @@
+.page-admin {
+
+    .products-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+
+        .product {
+            background-color: $color-black;
+            color: $color-white;
+            width: 300px;
+            padding: 10px 20px;
+            position: relative;
+            margin: 10px 0px;
+
+            button {
+                padding: 5px 10px;
+                background-color: $color-red;
+                color: $color-white;
+                border: none;
+                position: absolute;
+                top: 0;
+                right: 0;
+                outline: none;
+            }
+        }
+    }
+}

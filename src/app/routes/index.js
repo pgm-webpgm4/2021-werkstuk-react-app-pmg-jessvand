@@ -1,6 +1,9 @@
 export const HOME = '/';
 export const ADMIN = '/admin';
+export const ADMIN_ADD = '/admin/add';
+export const ADMIN_UPDATE = '/admin/update';
+export const ADMIN_DELETE = '/admin/delete';
 export const CART = '/cart';
-export const PRODUCTS = '/products';
-export const PRODUCT_DETAIL = '/products/:id';
 export const PAYMENT = '/payment';
+export const PRODUCT_DETAIL = '/products/:id';
+export const PRODUCTS = '/products';
