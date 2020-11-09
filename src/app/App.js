@@ -9,8 +9,17 @@ import { ApolloProvider, ApolloClient, InMemoryCache } from '@apollo/client';
 
 const App = () => {
 
+  // const httpLink = new HttpLink({
+  //   uri:
+  //     process.env.NODE_ENV === 'development'
+  //       ? 'http://localhost:5050'
+  //       : 'https://webpgm-webshop-api.herokuapp.com/',
+  // });
+
+
   const client = new ApolloClient({
-    uri: 'http://localhost:5050',
+    // link: httpLink,
+    uri: 'https://webpgm-webshop-api.herokuapp.com/',
     cache: new InMemoryCache()
   });
 
