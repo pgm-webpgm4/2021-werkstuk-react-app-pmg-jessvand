@@ -23,6 +23,7 @@ const Navbar = () => {
             </Link>
           </div>
           <div className="col-12 col-md-12 col-lg-4 col-xl-4 nav-cart" >
+            <Link to={Routes.ADMIN}>Admin</Link>
             <Link to={Routes.PRODUCTS}> Producten </Link>
             <Link className="cart" to={Routes.CART}> <FaShoppingCart /> </Link>
           </div>

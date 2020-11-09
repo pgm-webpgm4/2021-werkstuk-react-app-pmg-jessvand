@@ -2,6 +2,7 @@ export const HOME = '/';
 export const ADMIN = '/admin';
 export const ADMIN_ADD = '/admin/add';
 export const ADMIN_UPDATE = '/admin/update';
+export const ADMIN_UPDATE_DETAIL = '/admin/update/:id';
 export const ADMIN_DELETE = '/admin/delete';
 export const CART = '/cart';
 export const PAYMENT = '/payment';

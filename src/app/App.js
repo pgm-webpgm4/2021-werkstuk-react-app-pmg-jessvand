@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Navbar } from './components';
 import { AdminPage, AdminAddPage, AdminUpdatePage, AdminDeletePage, CartPage, DetailPage, HomePage, PaymentPage, ProductsPage } from './pages';
+import { UpdateProduct } from './components';
 import * as Routes from './routes';
 
 import { ApolloProvider, ApolloClient, InMemoryCache } from '@apollo/client';
@@ -25,6 +26,7 @@ const App = () => {
             <Route exact path={Routes.ADMIN} component={AdminPage} />
             <Route exact path={Routes.ADMIN_ADD} component={AdminAddPage} />
             <Route exact path={Routes.ADMIN_UPDATE} component={AdminUpdatePage} />
+            <Route exact path={Routes.ADMIN_UPDATE_DETAIL} component={UpdateProduct} />
             <Route exact path={Routes.ADMIN_DELETE} component={AdminDeletePage} />
             <Route exact path={Routes.CART} component={CartPage} />
             <Route exact path={Routes.PAYMENT} component={PaymentPage} />
