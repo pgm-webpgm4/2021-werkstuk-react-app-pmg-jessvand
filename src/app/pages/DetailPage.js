@@ -52,7 +52,7 @@ const DetailPage = ({match: {params}}) => {
           <div className="container col-12 col-md-12 col-lg-6 col-xl-6 detail-info">
             <h1>{data.product.name}</h1>
             <p>{data.product.description}</p>
-            <p className="price">$ {data.product.price}</p>
+            <p className="price">€ {data.product.price}</p>
             <button onClick={() => addToCart(data.product)} className="button">In winkelmandje</button>
           </div>
 
